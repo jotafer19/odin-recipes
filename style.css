@@ -3,15 +3,71 @@ body {
     background-color: rgb(246, 231, 212);
 }
 
+#banner {
+    background-color: rgb(43, 96, 241);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 #header {
     font-size: 48px;
     text-align: center;
+    color: white;
 }
 
 .image-banner {
-    width: 50%;
+    width: 30%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: block;
+}
+
+.recipe-image {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.main-page-recipes {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.main-page-recipes li {
+    display: inline-block;
+}
+
+li a {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ingredients {
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.steps {
+    margin-left: auto;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.return-links {
+    text-align: center;
+}
+
+#top {
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
 }
